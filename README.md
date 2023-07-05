@@ -54,17 +54,12 @@ this bot now has 5 function
     12: 6.44 GB
     13: 4.34 GB
     14: 3.5` GB
-
+    
+    Avrage: 4.32 GB
+    Total: 60.53 GB
+    
     admin input:
     /get_bandwidth username1
-
-Avrage: 4.32 GB
-Total: 60.53 GB
-'''
-
-'''
-admin input:
-/get_bandwidth username1
 
 4 - /get_stat
 
@@ -94,6 +89,8 @@ admin input:
     result:
     Jun
     username1 20.4
+
+note: all inputs and results will send to you telegram channel with sender's telegram id
 
 # Getting started
 you must add this line to end of /etc/ocserv/ocserv.conf
