@@ -53,7 +53,7 @@ this bot now has 5 function
     11: 4.81 GB
     12: 6.44 GB
     13: 4.34 GB
-    14: 3.5` GB
+    14: 3.53 GB
     
     Avrage: 4.32 GB
     Total: 60.53 GB
