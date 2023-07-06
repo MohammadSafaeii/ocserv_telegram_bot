@@ -131,14 +131,14 @@ default is '/root/occtl_telegram_bot'
 ___
 
 then you must create a telegram bot with @BotFather bot in telegram
-and replace your bot token in telegram_bot.py file (BOT_TOKEN field)
+and replace your bot token in telegram_bot.py file (BOT_TOKEN field) --> String
 
 then you must get your telegram id (you can use @getidsbot)
-and replace your telegram id in telegram_bot.py file (ADMIN_ID field)
+and replace your telegram id in telegram_bot.py file (ADMIN_ID field) --> Integer
 
 then you must create a channel in telegram and add your bot to the channel as administrator
 then get your channel id (you can open your channel in telegram web, the number after # in url is your channel id)
-replace your channel id in telegram_bot.py file (CHANNEL_ID field)
+replace your channel id in telegram_bot.py file (CHANNEL_ID field) --> Negative Integer
 
 ***code is ready***
 
