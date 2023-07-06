@@ -145,6 +145,7 @@ replace your channel id in telegram_bot.py file (CHANNEL_ID field) --> Negative 
 ___
 
 now you must run the code with python 3.7 or later
+
 install these pakages
 ```
 $ pip install passlib
@@ -153,6 +154,7 @@ $ pip install pyTelegramBotAPI
 $ pip install python-telegram-bot
 ```
 now run cron file
+
 this cron will run users_traffic_cron.py every day at 23:55 to get all data from log file (/var/log/messages) and save it to users_traffic.txt file
 ```
 $ python {your_project_location}/cron.py
@@ -177,4 +179,13 @@ $ vim {your_project_location}/users_traffic_cron_manual.py
 change DATE field
 ```
 $ python {your_project_location}/users_traffic_cron_manual.py
+```
+---
+you can kill telegram_bot.py with this command:
+```
+$ ps ax | grep telegram_bot.py
+```
+find id and kill it
+```
+$ kill {id that got from last command}
 ```
