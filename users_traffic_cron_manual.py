@@ -17,6 +17,8 @@ def users_traffic_cron_function():
 		message = subprocess.check_output(awk_command, shell=True)
 		message = message.decode()
 		final_message = ""
+		if DATE[-2] == " ":
+			DATE = DATE[:-2] + "0" + DATE[-1]
 		for line in (message.splitlines()):
 			final_message = final_message + f"{DATE} user:::" + line + "\n"
 		with open(f'{PROJECT_LOCATION}/users_traffic.txt', 'a') as f:
